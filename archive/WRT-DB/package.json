@@ -1,0 +1,22 @@
+{
+  "name": "wrt-db",
+  "version": "1.0.0",
+  "description": "Banco de dados MongoDB para o projeto WRTmind",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mongodb", "mongoose", "database"],
+  "author": "WRTmind",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
